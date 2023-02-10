@@ -1,9 +1,11 @@
+import React from 'react';
 import './App.css';
+import PortfolioContainer from './PortfolioContainer/PortfolioContainer';
 
 function App() {
    return (
       <div className="App">
-         <header className="App-header">Hi</header>
+         <PortfolioContainer />
       </div>
    );
 }
